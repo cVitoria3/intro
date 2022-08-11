@@ -1,0 +1,73 @@
+Sala 07
+Integrantes: Bruno Magalhães Barbosa
+		Vanilza Flora Silvestre
+		Tiago Silva
+		Carolina Vitória Laurindo
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH (master)
+$ mkdir projetos
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH (master)
+$ cd projetos
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ touch text1.txt text2.txt
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git init
+Initialized empty Git repository in C:/Users/Carolina/Documents/DH/projetos/.git/
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git add .
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   text1.txt
+        new file:   text2.txt
+
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git commit -m "1o commit"
+[master (root-commit) c49425f] 1o commit
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text1.txt
+ create mode 100644 text2.txt
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text1.txt
+        modified:   text2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git commit -m "Realizar alterações"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text1.txt
+        modified:   text2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git add .
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$ git commit -m "Realizar alterações"
+[master 2855366] Realizar alterações
+ 2 files changed, 2 insertions(+)
+
+Carolina@DESKTOP-NT4SGH3 MINGW64 ~/Documents/DH/projetos (master)
+$

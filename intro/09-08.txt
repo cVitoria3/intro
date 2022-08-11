@@ -1,0 +1,5 @@
+git config --global --replace-all user.name Carolina
+git config --global --replace-all user.email carolinavlaurindo@gmail.com
+
+
+git remote add origin https://github.com/cVitoria3/intro-a-informatica
